@@ -24,7 +24,7 @@ def main():
     page_title="DirChat",
     page_icon=":books:")
 
-    st.title("_Private Data :red[QA Chat]_ :books:")
+    st.title("_스터디 :blue[RAG Chatbot]_")
 
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
